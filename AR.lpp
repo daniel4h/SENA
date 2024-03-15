@@ -1,0 +1,11 @@
+ entero b, h, a	 
+inicio
+escriba "Area del triangulo"
+escriba "ingrese base"
+lea b
+escriba "ingrese la altura"
+lea h 
+a <- b*h 
+escriba "el area es",a
+fin
+

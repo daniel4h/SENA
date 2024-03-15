@@ -1,0 +1,17 @@
+real num1, num2
+inicio
+escriba "digite un numero"
+lea num1
+escriba "digite un numero"
+lea num2
+si num2>num1 entonces
+escriba "numero 2 es mayor" 
+sino
+si num1<num2 entonces 
+escriba " numero 1 es mayor" 
+sino escriba "son el mismo numero"
+ 
+fin si
+fin si
+fin
+

@@ -1,0 +1,15 @@
+real  num
+inicio
+escriba "digite un numero"
+lea num
+
+si num = 0 entonces
+ escriba " Neutro - 0 -"
+ sino 
+ si num < 0 entonces
+  escriba "es Negativo"
+    sino
+     escriba " es Positivo"
+ fin si 
+fin si
+fin

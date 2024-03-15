@@ -1,0 +1,10 @@
+real p, d
+
+inicio
+escriba "Digite los dolares "
+lea d
+
+p <- d*4000
+
+escriba "Equivale a ",p
+fin

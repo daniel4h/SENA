@@ -1,0 +1,35 @@
+ENTERO numDia
+
+INICIO
+  ESCRIBA "DIGITE EL NUMERO DEL DIA "
+  LEA  numDia
+  SI (numDia=1) ENTONCES
+      ESCRIBA "LUNES"
+  SINO    
+   SI (numDia=2) ENTONCES
+      ESCRIBA "MARTES"
+   SINO
+    SI(numDia=3) ENTONCES
+       ESCRIBA "MIERCOLES"
+    SINO
+     SI (numDia=4) ENTONCES
+        ESCRIBA "JUEVES"
+     SINO
+      SI (numDia=5) ENTONCES
+          ESCRIBA "VIERNES"
+      SINO
+       SI(numDia=6) ENTONCES
+          ESCRIBA "SABADO"
+       SINO
+        SI(numDia=7) ENTONCES
+          ESCRIBA "DOMINGO"
+        SINO
+           ESCRIBA "VALOR NO VALIDO" 
+        FIN SI 
+       FIN SI
+      FIN SI
+     FIN SI  
+    FIN SI 
+   FIN SI
+  FIN SI
+FIN

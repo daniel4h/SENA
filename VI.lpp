@@ -1,0 +1,10 @@
+	entero v, i
+
+inicio
+escriba "Digite el valor "
+lea v
+
+i <- v*0.15
+v <- v+	i
+escriba "El valor incrementado es ",v
+fin

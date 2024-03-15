@@ -1,0 +1,20 @@
+real l1,l2,l3
+
+inicio
+
+escriba "lado 1"
+lea l1
+escriba "lado 2"
+lea l2
+escriba "lado 3"
+lea l3
+si (l1<>l2) y (l1<>l3) entonces
+escriba "es triangulo escaleno"
+sino
+si (l1=l2) y (l2<>l3) entonces
+escriba "es triangulo isoceles"
+sino 
+escriba "triangulo equilatero"
+fin si
+fin si
+fin

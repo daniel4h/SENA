@@ -1,0 +1,8 @@
+real c, f, z 
+
+inicio
+escriba "Digite los celsios"
+lea c
+z <- c * (9/5) + 32
+escriba "equivale a",z
+fin

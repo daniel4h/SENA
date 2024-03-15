@@ -1,0 +1,15 @@
+real r, v, h,p
+
+inicio
+
+escriba "inserte radio"
+lea r
+escriba "inserte la altura"
+lea h
+
+p <-3.1416
+v <- (r*r)*p*h
+
+escriba "el volumen es:", v
+
+fin

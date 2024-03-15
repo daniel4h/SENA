@@ -1,0 +1,11 @@
+real r, a
+inicio
+
+escriba "inserte radio"
+lea r 
+
+a <-(r*r)*3.1416
+
+escriba "el area es:", a
+
+fin

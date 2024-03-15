@@ -1,0 +1,22 @@
+entero sum, num1, num2
+
+inicio
+
+escriba "Digite el primer Valor"
+lea num1
+escriba "Digite el primer Valor"
+lea num2
+sum <- num1+num2
+
+si sum = 100 entonces
+  escriba "suma igual a 100"
+sino
+ si sum <100 entonces
+  escriba "suma menor que 100"
+ 
+ sino
+  escriba"Suma mayor a 100" 
+--
+fin si
+fin si
+fin

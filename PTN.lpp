@@ -1,0 +1,15 @@
+entero p, n1, n2, n3 
+
+inicio
+escriba "Digite el numero 1 "
+lea n1
+
+escriba "Digite el numero 2 "
+lea n2
+
+escriba "Digite el numero 3 "
+lea n3
+
+p <- (n1+n3+n2)/3
+escriba "El promedio es ",p
+fin
